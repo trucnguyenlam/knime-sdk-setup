@@ -100,6 +100,15 @@ Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are
 
 * Errors encountered while setting or modifying the target platform could result from old version numbers cached by Eclipse. This can be fixed by making sure that all plug-in versions specified in the target definition file are set to ``"0.0.0"``. To do this, double click on the ``.target`` file you want to use which opens the Target Definition view of Eclipse. At the bottom, click on the tab __Source__ which opens the raw file in the Eclipse editor. There, make sure all ``version=`` properties are set to ``"0.0.0"`` (including 	quotation marks).
 
+* If you encounter a SIGSEGV error when trying to launch KNIME Analytics Platform from within Eclipse, on a mac with a touchbar keyboard:
+    1. In Eclipse select `Run → Run Configurations...` ( or `Debug Configurations...`)
+    2. Select the Run/Debug configuration you want to launch
+    3. Select the `Arguments` tab
+    4. Add the argument `-nosplash` to the _Program arguments_
+
+    Now KNIME Analytics Platform should start successfully (this is caused by
+    the following bug in eclipse: https://bugs.eclipse.org/bugs/show_bug.cgi?id=538377)
+
 * If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s: 
     1. In Eclipse select `Run → Run Configurations...` ( or `Debug Configurations...`)
     2. Select the Run/Debug configuration you want to launch

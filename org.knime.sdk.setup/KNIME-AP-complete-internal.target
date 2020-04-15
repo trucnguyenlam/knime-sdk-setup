@@ -171,16 +171,16 @@
 <plugin id="com.codahale.metrics.jvm"/>
 <plugin id="com.databricks.spark-avro_2.10"/>
 <plugin id="com.databricks.spark-avro_2.10.source"/>
-<plugin id="com.databricks.spark-avro_2.11" version="4.0.0.knimebd-20200113"/>
 <plugin id="com.databricks.spark-avro_2.11" version="3.2.0.knimebd-20200113"/>
-<plugin id="com.databricks.spark-avro_2.11.source" version="3.2.0.knimebd-20200113"/>
+<plugin id="com.databricks.spark-avro_2.11" version="4.0.0.knimebd-20200113"/>
 <plugin id="com.databricks.spark-avro_2.11.source" version="4.0.0.knimebd-20200113"/>
+<plugin id="com.databricks.spark-avro_2.11.source" version="3.2.0.knimebd-20200113"/>
 <plugin id="com.databricks.spark-csv_2.10"/>
 <plugin id="com.databricks.spark-csv_2.10.source"/>
 <plugin id="com.epam.parso"/>
-<plugin id="com.esotericsoftware.kryo" version="2.22.0.knimebd-20200113"/>
 <plugin id="com.esotericsoftware.kryo" version="2.21.0"/>
-<plugin id="com.esotericsoftware.kryo.source"/>
+<plugin id="com.esotericsoftware.kryo" version="2.22.0.knimebd-20200113"/>
+<plugin id="com.esotericsoftware.kryo.source" version="2.22.0.knimebd-20200113"/>
 <plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
@@ -223,17 +223,17 @@
 <plugin id="com.google.apis.google-api-services-sheets"/>
 <plugin id="com.google.apis.google-api-services-storage"/>
 <plugin id="com.google.gson"/>
-<plugin id="com.google.guava" version="17.0.0"/>
 <plugin id="com.google.guava" version="19.0.0"/>
+<plugin id="com.google.guava" version="17.0.0"/>
 <plugin id="com.google.http-client.google-http-client"/>
 <plugin id="com.google.http-client.google-http-client-jackson2"/>
 <plugin id="com.google.oauth-client"/>
 <plugin id="com.google.oauth-client-java6"/>
 <plugin id="com.google.oauth-client-jetty"/>
-<plugin id="com.google.protobuf" version="3.6.1"/>
 <plugin id="com.google.protobuf" version="2.5.0"/>
+<plugin id="com.google.protobuf" version="3.6.1"/>
 <plugin id="com.google.protobuf.nano"/>
-<plugin id="com.google.protobuf.source"/>
+<plugin id="com.google.protobuf.source" version="3.6.1"/>
 <plugin id="com.googlecode.efficient-java-matrix-library.ejml"/>
 <plugin id="com.googlecode.libphonenumber"/>
 <plugin id="com.googlecode.matrix-toolkits-java.mtj"/>
@@ -361,8 +361,8 @@
 <plugin id="net.bytebuddy.byte-buddy"/>
 <plugin id="net.bytebuddy.byte-buddy-agent"/>
 <plugin id="net.i2p.crypto.eddsa"/>
-<plugin id="net.iharder.base64" version="2.3.9"/>
 <plugin id="net.iharder.base64" version="2.3.8.knimebd-20200113"/>
+<plugin id="net.iharder.base64" version="2.3.9"/>
 <plugin id="net.imglib2"/>
 <plugin id="net.imglib2.cache"/>
 <plugin id="net.imglib2.realtransform"/>
@@ -381,8 +381,8 @@
 <plugin id="net.sf.opencsv" version="2.3.0.knimebd-20200113"/>
 <plugin id="net.sf.opencsv" version="2.3.0"/>
 <plugin id="net.sf.saxon"/>
-<plugin id="net.sf.trove4j" version="2.0.2"/>
 <plugin id="net.sf.trove4j" version="3.0.3"/>
+<plugin id="net.sf.trove4j" version="2.0.2"/>
 <plugin id="net.sourceforge.f2j.arpack_combined_all" version="0.1.0.knimebd-20200113"/>
 <plugin id="net.sourceforge.f2j.arpack_combined_all" version="0.1.0"/>
 <plugin id="net.sourceforge.lpg.lpgjavaruntime"/>
@@ -395,44 +395,44 @@
 <plugin id="org.apache.avro"/>
 <plugin id="org.apache.avro.source"/>
 <plugin id="org.apache.axis"/>
-<plugin id="org.apache.batik.bridge" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.bridge" version="1.7.0.v201011041433"/>
-<plugin id="org.apache.batik.css" version="1.7.0.v201011041433"/>
-<plugin id="org.apache.batik.css" version="1.8.0.v20170214-1941"/>
+<plugin id="org.apache.batik.bridge" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.css" version="1.6.0.v201011041432"/>
-<plugin id="org.apache.batik.dom" version="1.7.1.v201505191845"/>
+<plugin id="org.apache.batik.css" version="1.8.0.v20170214-1941"/>
+<plugin id="org.apache.batik.css" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.dom" version="1.6.1.v201505192100"/>
+<plugin id="org.apache.batik.dom" version="1.7.1.v201505191845"/>
 <plugin id="org.apache.batik.dom.clfix"/>
 <plugin id="org.apache.batik.dom.svg" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.dom.svg" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.dom.svg.clfix"/>
-<plugin id="org.apache.batik.ext.awt" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.ext.awt" version="1.7.0.v201011041433"/>
+<plugin id="org.apache.batik.ext.awt" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.ext.awt.extension"/>
 <plugin id="org.apache.batik.ext.awt.knime_fragment"/>
-<plugin id="org.apache.batik.parser" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.parser" version="1.7.0.v201011041433"/>
+<plugin id="org.apache.batik.parser" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.pdf"/>
 <plugin id="org.apache.batik.svggen" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.svggen" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.swing"/>
-<plugin id="org.apache.batik.transcoder" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.transcoder" version="1.6.0.v201011041432"/>
-<plugin id="org.apache.batik.util" version="1.7.0.v201011041433"/>
+<plugin id="org.apache.batik.transcoder" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.util" version="1.8.0.v20170214-1941"/>
+<plugin id="org.apache.batik.util" version="1.7.0.v201011041433"/>
 <plugin id="org.apache.batik.util" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.batik.util.gui" version="1.7.0.v200903091627"/>
-<plugin id="org.apache.batik.util.gui" version="1.8.0.v20170214-1941"/>
 <plugin id="org.apache.batik.util.gui" version="1.6.0.v201011041432"/>
-<plugin id="org.apache.batik.xml" version="1.6.0.v201011041432"/>
+<plugin id="org.apache.batik.util.gui" version="1.8.0.v20170214-1941"/>
 <plugin id="org.apache.batik.xml" version="1.7.0.v201011041433"/>
+<plugin id="org.apache.batik.xml" version="1.6.0.v201011041432"/>
 <plugin id="org.apache.commons"/>
 <plugin id="org.apache.commons.beanutils"/>
 <plugin id="org.apache.commons.cli" version="1.4.0"/>
 <plugin id="org.apache.commons.cli" version="1.2"/>
-<plugin id="org.apache.commons.cli.source"/>
-<plugin id="org.apache.commons.codec" version="1.9.0.v20170208-1614"/>
+<plugin id="org.apache.commons.cli.source" version="1.4.0"/>
 <plugin id="org.apache.commons.codec" version="1.10.0"/>
+<plugin id="org.apache.commons.codec" version="1.9.0.v20170208-1614"/>
 <plugin id="org.apache.commons.codec" version="1.11.0"/>
 <plugin id="org.apache.commons.collections"/>
 <plugin id="org.apache.commons.collections4"/>
@@ -495,12 +495,12 @@
 <plugin id="org.apache.htrace.core.source"/>
 <plugin id="org.apache.httpcomponents.fluent-hc"/>
 <plugin id="org.apache.httpcomponents.httpasyncclient"/>
-<plugin id="org.apache.httpcomponents.httpclient" version="4.5.5"/>
 <plugin id="org.apache.httpcomponents.httpclient" version="4.5.2.v20170210-0925"/>
+<plugin id="org.apache.httpcomponents.httpclient" version="4.5.5"/>
 <plugin id="org.apache.httpcomponents.httpclient-cache"/>
 <plugin id="org.apache.httpcomponents.httpclient-win"/>
-<plugin id="org.apache.httpcomponents.httpcore" version="4.4.9"/>
 <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6.v20170210-0925"/>
+<plugin id="org.apache.httpcomponents.httpcore" version="4.4.9"/>
 <plugin id="org.apache.httpcomponents.httpcore-nio"/>
 <plugin id="org.apache.httpcomponents.httpmime"/>
 <plugin id="org.apache.jasper.glassfish"/>
@@ -538,26 +538,26 @@
 <plugin id="org.apache.santuario.xmlsec"/>
 <plugin id="org.apache.servicemix.bundles.poi"/>
 <plugin id="org.apache.solr.solrj"/>
+<plugin id="org.apache.spark_2.10" version="1.6.0.cdh5_9_3-knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10" version="1.3.1.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10" version="1.6.3.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.10" version="1.5.2.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10" version="1.2.2.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.10" version="1.6.0.cdh5_9_3-knimebd-20200113"/>
-<plugin id="org.apache.spark_2.10.source" version="1.6.3.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.10.source" version="1.6.0.cdh5_9_3-knimebd-20200113"/>
+<plugin id="org.apache.spark_2.10" version="1.5.2.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10.source" version="1.5.2.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10.source" version="1.3.1.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.10.source" version="1.2.2.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.11" version="2.1.1.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.11" version="2.0.2.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.11" version="2.4.0.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.10.source" version="1.6.3.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.10.source" version="1.6.0.cdh5_9_3-knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11" version="2.3.1.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.11" version="2.4.0.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11" version="2.2.0.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.11" version="2.0.2.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.11" version="2.1.1.knimebd-20200113"/>
+<plugin id="org.apache.spark_2.11.source" version="2.2.0.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11.source" version="2.0.2.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11.source" version="2.4.0.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11.source" version="2.1.1.knimebd-20200113"/>
 <plugin id="org.apache.spark_2.11.source" version="2.3.1.knimebd-20200113"/>
-<plugin id="org.apache.spark_2.11.source" version="2.2.0.knimebd-20200113"/>
 <plugin id="org.apache.sshd.core"/>
 <plugin id="org.apache.sshd.core.source"/>
 <plugin id="org.apache.thrift"/>
@@ -1013,8 +1013,8 @@
 <plugin id="org.eclipse.help.ui"/>
 <plugin id="org.eclipse.help.webapp"/>
 <plugin id="org.eclipse.jdt"/>
-<plugin id="org.eclipse.jdt.annotation" version="1.1.150.v20180322-1206"/>
 <plugin id="org.eclipse.jdt.annotation" version="2.1.150.v20180322-1206"/>
+<plugin id="org.eclipse.jdt.annotation" version="1.1.150.v20180322-1206"/>
 <plugin id="org.eclipse.jdt.apt.core"/>
 <plugin id="org.eclipse.jdt.apt.pluggable.core"/>
 <plugin id="org.eclipse.jdt.apt.ui"/>
@@ -1035,13 +1035,13 @@
 <plugin id="org.eclipse.jdt.launching.ui.macosx"/>
 <plugin id="org.eclipse.jdt.ui"/>
 <plugin id="org.eclipse.jem.util"/>
-<plugin id="org.eclipse.jetty.continuation" version="9.4.8.v20171121"/>
 <plugin id="org.eclipse.jetty.continuation" version="9.4.5.v20170502"/>
+<plugin id="org.eclipse.jetty.continuation" version="9.4.8.v20171121"/>
 <plugin id="org.eclipse.jetty.deploy"/>
-<plugin id="org.eclipse.jetty.http" version="9.4.8.v20171121"/>
 <plugin id="org.eclipse.jetty.http" version="9.4.5.v20170502"/>
-<plugin id="org.eclipse.jetty.io" version="9.4.5.v20170502"/>
+<plugin id="org.eclipse.jetty.http" version="9.4.8.v20171121"/>
 <plugin id="org.eclipse.jetty.io" version="9.4.8.v20171121"/>
+<plugin id="org.eclipse.jetty.io" version="9.4.5.v20170502"/>
 <plugin id="org.eclipse.jetty.jndi"/>
 <plugin id="org.eclipse.jetty.osgi.boot"/>
 <plugin id="org.eclipse.jetty.plus"/>
@@ -1051,8 +1051,8 @@
 <plugin id="org.eclipse.jetty.server" version="9.4.8.v20171121"/>
 <plugin id="org.eclipse.jetty.servlet" version="9.4.5.v20170502"/>
 <plugin id="org.eclipse.jetty.servlet" version="9.4.8.v20171121"/>
-<plugin id="org.eclipse.jetty.util" version="9.4.5.v20170502"/>
 <plugin id="org.eclipse.jetty.util" version="9.4.8.v20171121"/>
+<plugin id="org.eclipse.jetty.util" version="9.4.5.v20170502"/>
 <plugin id="org.eclipse.jetty.webapp"/>
 <plugin id="org.eclipse.jetty.xml"/>
 <plugin id="org.eclipse.jface"/>
@@ -1098,15 +1098,9 @@
 <plugin id="org.eclipse.rcp"/>
 <plugin id="org.eclipse.search"/>
 <plugin id="org.eclipse.swt" version="3.106.3.v20180329-0507"/>
-<plugin id="org.eclipse.swt" version="3.106.3.v20180329-0507"/>
-<plugin id="org.eclipse.swt" version="3.106.3.v20180329-0507"/>
-<plugin id="org.eclipse.swt" version="3.106.3.v20180329-0507"/>
 <plugin id="org.eclipse.swt.chromium"/>
 <plugin id="org.eclipse.swt.chromium.64b"/>
 <plugin id="org.eclipse.swt.chromium.cocoa.macosx.x86_64"/>
-<plugin id="org.eclipse.swt.cocoa.macosx.x86_64" version="3.106.3.v20180329-0507"/>
-<plugin id="org.eclipse.swt.cocoa.macosx.x86_64" version="3.106.3.v20180329-0507"/>
-<plugin id="org.eclipse.swt.cocoa.macosx.x86_64" version="3.106.3.v20180329-0507"/>
 <plugin id="org.eclipse.swt.cocoa.macosx.x86_64" version="3.106.3.v20180329-0507"/>
 <plugin id="org.eclipse.team.core"/>
 <plugin id="org.eclipse.team.genericeditor.diff.extension"/>
@@ -1195,8 +1189,8 @@
 <plugin id="org.jpmml.pmml-merged" version="1.1.15.knimebd-20200113"/>
 <plugin id="org.json"/>
 <plugin id="org.json4s-merged_2.10"/>
-<plugin id="org.json4s-merged_2.11" version="3.5.3.knimebd-20200113"/>
 <plugin id="org.json4s-merged_2.11" version="3.2.11.knimebd-20200113"/>
+<plugin id="org.json4s-merged_2.11" version="3.5.3.knimebd-20200113"/>
 <plugin id="org.jsoup"/>
 <plugin id="org.junit"/>
 <plugin id="org.junit.jupiter.api"/>
@@ -1301,7 +1295,6 @@
 <plugin id="org.knime.ext.birt"/>
 <plugin id="org.knime.ext.chem.moss"/>
 <plugin id="org.knime.ext.chem.openbabel"/>
-<plugin id="org.knime.ext.chromium.bin.macosx.x86_64"/>
 <plugin id="org.knime.ext.cxf.webservice"/>
 <plugin id="org.knime.ext.dl4j.base"/>
 <plugin id="org.knime.ext.dl4j.bin.macosx.x86_64.cpu"/>
@@ -1457,10 +1450,10 @@
 <plugin id="org.mortbay.jetty.servlet-api"/>
 <plugin id="org.mortbay.jetty.util"/>
 <plugin id="org.mozilla.javascript"/>
-<plugin id="org.objectweb.asm" version="3.1.0.knimebd-20200113"/>
 <plugin id="org.objectweb.asm" version="5.0.4"/>
+<plugin id="org.objectweb.asm" version="3.1.0.knimebd-20200113"/>
 <plugin id="org.objectweb.asm" version="6.0.0.v20180116-1719"/>
-<plugin id="org.objectweb.asm.source"/>
+<plugin id="org.objectweb.asm.source" version="6.0.0.v20180116-1719"/>
 <plugin id="org.objectweb.asm.tree"/>
 <plugin id="org.objenesis"/>
 <plugin id="org.openqa.selenium"/>
@@ -1474,27 +1467,27 @@
 <plugin id="org.scala-lang.modules.scala-xml"/>
 <plugin id="org.scala-lang.scala-compiler" version="2.10.6.v20150918-105036-VFINAL-bda53196eb-knimebd-20200113"/>
 <plugin id="org.scala-lang.scala-compiler" version="2.11.11.v20170413-090219-8a413ba7cc"/>
-<plugin id="org.scala-lang.scala-compiler.source" version="2.11.11.v20170413-090219-8a413ba7cc"/>
 <plugin id="org.scala-lang.scala-compiler.source" version="2.10.6.v20150918-105036-VFINAL-bda53196eb-knimebd-20200113"/>
-<plugin id="org.scala-lang.scala-library" version="2.11.11.v20170413-090219-8a413ba7cc"/>
+<plugin id="org.scala-lang.scala-compiler.source" version="2.11.11.v20170413-090219-8a413ba7cc"/>
 <plugin id="org.scala-lang.scala-library" version="2.10.6.v20150918-105036-VFINAL-bda53196eb"/>
+<plugin id="org.scala-lang.scala-library" version="2.11.11.v20170413-090219-8a413ba7cc"/>
 <plugin id="org.scala-lang.scala-library.source" version="2.10.6.v20150918-105036-VFINAL-bda53196eb"/>
 <plugin id="org.scala-lang.scala-library.source" version="2.11.11.v20170413-090219-8a413ba7cc"/>
-<plugin id="org.scala-lang.scala-reflect" version="2.10.6.v20150918-105036-VFINAL-bda53196eb-knimebd-20200113"/>
 <plugin id="org.scala-lang.scala-reflect" version="2.11.11.v20170413-090219-8a413ba7cc"/>
+<plugin id="org.scala-lang.scala-reflect" version="2.10.6.v20150918-105036-VFINAL-bda53196eb-knimebd-20200113"/>
 <plugin id="org.scala-lang.scala-reflect.source" version="2.10.6.v20150918-105036-VFINAL-bda53196eb-knimebd-20200113"/>
 <plugin id="org.scala-lang.scala-reflect.source" version="2.11.11.v20170413-090219-8a413ba7cc"/>
-<plugin id="org.scala-lang.scalap" version="2.10.6.knimebd-20200113"/>
 <plugin id="org.scala-lang.scalap" version="2.11.11.knimebd-20200113"/>
-<plugin id="org.scala-lang.scalap.source" version="2.11.11.knimebd-20200113"/>
+<plugin id="org.scala-lang.scalap" version="2.10.6.knimebd-20200113"/>
 <plugin id="org.scala-lang.scalap.source" version="2.10.6.knimebd-20200113"/>
+<plugin id="org.scala-lang.scalap.source" version="2.11.11.knimebd-20200113"/>
 <plugin id="org.scalactic_2.11"/>
 <plugin id="org.scalamacros.quasiquotes_2.10"/>
 <plugin id="org.scalanlp.breeze-macros_2.10"/>
 <plugin id="org.scalanlp.breeze-merged_2.10"/>
-<plugin id="org.scalanlp.breeze-merged_2.11" version="0.12.0.knimebd-20200113"/>
 <plugin id="org.scalanlp.breeze-merged_2.11" version="0.13.2.knimebd-20200113"/>
 <plugin id="org.scalanlp.breeze-merged_2.11" version="0.11.2.knimebd-20200113"/>
+<plugin id="org.scalanlp.breeze-merged_2.11" version="0.12.0.knimebd-20200113"/>
 <plugin id="org.scalanlp.breeze_2.10"/>
 <plugin id="org.scijava.common"/>
 <plugin id="org.scijava.parsington"/>
@@ -1518,9 +1511,9 @@
 <plugin id="org.w3c.dom.svg"/>
 <plugin id="org.w3c.dom.svg.extension"/>
 <plugin id="org.w3c.sac"/>
-<plugin id="org.xerial.snappy.snappy-java" version="1.0.4.1"/>
 <plugin id="org.xerial.snappy.snappy-java" version="1.1.7.3"/>
-<plugin id="org.xerial.snappy.snappy-java.source"/>
+<plugin id="org.xerial.snappy.snappy-java" version="1.0.4.1"/>
+<plugin id="org.xerial.snappy.snappy-java.source" version="1.1.7.3"/>
 <plugin id="org.yaml.snakeyaml"/>
 <plugin id="org.zeroturnaround.zt-zip"/>
 <plugin id="org.znerd.xmlenc"/>
